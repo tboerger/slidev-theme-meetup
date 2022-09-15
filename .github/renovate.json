@@ -51,9 +51,8 @@
             "matchDatasources": [
                 "npm"
             ],
-            "matchPackagePatterns": [
-                "@semantic-release",
-                "eslint"
+            "matchDepTypes": [
+                "devDependencies"
             ],
             "semanticCommitType": "ci",
             "semanticCommitScope": "tools",
