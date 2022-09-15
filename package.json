@@ -22,7 +22,7 @@
     "@slidev/types": "0.36.5",
     "codemirror-theme-vars": "0.1.1",
     "prism-theme-vars": "0.2.4",
-    "theme-vitesse": "0.4.10",
+    "theme-vitesse": "0.5.2",
     "vite-svg-loader": "3.6.0"
   },
   "devDependencies": {
