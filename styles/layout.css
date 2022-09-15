@@ -1,0 +1,178 @@
+@import url(http://fonts.googleapis.com/css?family=Nunito);
+@import url(http://fonts.googleapis.com/css?family=Georgia);
+@import url(http://fonts.googleapis.com/css?family=Fira+Code);
+
+:root {
+  --slidev-theme-primary: #5d8392;
+  --slidev-code-font-size: 0.95rem;
+  --slidev-code-line-height: 1.25rem;
+}
+
+html, body {
+	background-color: #fdf6e3;
+	color: #839496;
+}
+
+html:not(.dark) {
+  a, a:visited, a:active {
+    color: #2aa198;
+    border-color: #eee8d5;
+  }
+
+  a:hover {
+    background-color: #eee8d5;
+    border-color: #eee8d5;
+    color: #2aa198;
+  }
+
+  h1, h2, h3 {
+    color: #cb4b16;
+  }
+
+  h1 a, h1 a:visited, h1 a:active {
+    color: #cb4b16;
+  }
+
+  h1 a:hover {
+    background-color: #eee8d5;
+    border-color: #eee8d5;
+  }
+
+  article h1 a.anchor {
+    color: #2aa198;
+  }
+
+  blockquote {
+    border-color: #cb4b16;
+  }
+}
+
+html.dark {
+  a, a:visited, a:active {
+    color: #2aa198;
+    border-color: #073642;
+  }
+
+  a:hover {
+    background-color: #073642;
+    border-color: #073642;
+    color: #2aa198;
+  }
+
+  h1, h2, h3 {
+    color: #cb4b16;
+  }
+
+  h1 a, h1 a:visited, h1 a:active {
+    color: #cb4b16;
+  }
+
+  h1 a:hover {
+    background-color: #073642;
+    border-color: #073642;
+    color: #cb4b16;
+  }
+
+  article h1 a.anchor {
+    color: #2aa198;
+  }
+
+  blockquote {
+    border-color: #cb4b16;
+  }
+}
+
+.slidev-layout {
+  font-variant-ligatures: none;
+  text-align: justify;
+
+  h1, h2, h3, h4, p, div {
+    @apply select-text;
+  }
+
+  h1 {
+    @apply font-bold;
+  }
+
+  h1 + h2 {
+    @apply -mt-4;
+  }
+
+  h2 {
+    @apply text-2xl font-bold;
+  }
+
+  h3 {
+    @apply text-xl font-bold;
+  }
+
+  p {
+    @apply mt-4 mb-4;
+  }
+
+  p:first-child {
+    @apply mt-0 mb-4;
+  }
+
+  p:last-child {
+    @apply mb-0;
+  }
+
+  p + h2, ul + h2, table + h2 {
+    @apply mt-10;
+  }
+
+  blockquote > * {
+    @apply my-0;
+  }
+
+  ul {
+    list-style: disc;
+  }
+
+  li > ul,
+  li > ol,
+  ul:first-child,
+  ol:first-child {
+    margin-top: 0;
+  }
+
+  :not(pre) > code:before,
+  :not(pre) > code:after {
+    content: '\2005';
+  }
+
+  .katex-display {
+    @apply my-0
+  }
+
+  th {
+    @apply font-bold;
+  }
+
+  td {
+    @apply py-1.5;
+  }
+
+  li {
+    line-height: 1.6em;
+  }
+}
+
+.slidev-layout.intro,
+.slidev-layout.cover {
+  @apply h-full grid;
+
+  h1 {
+    @apply text-6xl font-700 leading-20;
+  }
+
+  h1 + p {
+    @apply font-700 -mt-4 text-2xl;
+  }
+}
+
+:not(li) > ul > li:not(li:first-child),
+:not(li) > ol > li:not(li:first-child) {
+  margin-top: 1rem;
+}

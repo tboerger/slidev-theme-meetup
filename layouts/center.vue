@@ -1,0 +1,9 @@
+<template>
+  <div class="slidev-layout text-center">
+    <LayoutHeader class="absolute bottom-0 right-0 transform flip-x" />
+    <div class="my-auto">
+      <slot />
+    </div>
+    <LayoutFooter />
+  </div>
+</template>

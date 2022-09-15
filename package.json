@@ -1,0 +1,61 @@
+{
+  "name": "slidev-theme-meetup",
+  "version": "1.0.0",
+  "description": "Slidev theme used for talks on meetups",
+  "homepage": "https://github.com/tboerger/slidev-theme-meetup#readme",
+  "license": "CC-BY-SA-4.0",
+  "author": "Thomas Boerger <thomas@boerger.ws>",
+  "repository": "https://github.com/tboerger/slidev-theme-meetup.git",
+  "bugs": {
+    "url": "https://github.com/tboerger/slidev-theme-meetup/issues",
+    "email": "thomas@boerger.ws"
+  },
+  "scripts": {
+    "build": "slidev build example.md",
+    "dev": "slidev example.md --open",
+    "export": "slidev export example.md",
+    "screenshot": "slidev export example.md --format png",
+    "lint": "eslint --ext js --ext ts --ext vue .",
+    "release": "semantic-release"
+  },
+  "dependencies": {
+    "@slidev/types": "^0.36.4",
+    "codemirror-theme-vars": "^0.1.1",
+    "prism-theme-vars": "^0.2.4",
+    "theme-vitesse": "^0.4.10",
+    "vite-svg-loader": "^3.6.0"
+  },
+  "devDependencies": {
+    "@iconify-json/mdi": "^1.1.32",
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/commit-analyzer": "^9.0.2",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.6",
+    "@semantic-release/npm": "^9.0.1",
+    "@semantic-release/release-notes-generator": "^10.0.3",
+    "@slidev/cli": "^0.36.4",
+    "eslint": "^8.23.1",
+    "eslint-plugin-vue": "^9.4.0",
+    "playwright-chromium": "^1.25.2",
+    "qrious": "^4.0.2"
+  },
+  "keywords": [
+    "slidev-theme",
+    "slidev"
+  ],
+  "engines": {
+    "node": ">=14.0.0",
+    "slidev": ">=0.36.4"
+  },
+  "slidev": {
+    "colorSchema": "both",
+    "highlighter": "all",
+    "defaults": {
+      "fonts": {
+        "sans": "Helvetica",
+        "mono": "Fira Code"
+      },
+      "hightlighter": "prism"
+    }
+  }
+}

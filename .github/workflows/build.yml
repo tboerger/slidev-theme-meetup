@@ -1,0 +1,35 @@
+---
+name: build
+
+"on":
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+
+    steps:
+      - name: Checkout source
+        id: source
+        uses: actions/checkout@v3
+
+      - name: Setup nodejs
+        uses: actions/setup-node@v1
+        with:
+          node-version: 16
+
+      - name: Install deps
+        run: npm ci
+
+      - name: Run build
+        run: npm run build
+
+      - name: Run release
+        run: npm run release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+...
