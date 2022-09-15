@@ -19,25 +19,25 @@
     "release": "semantic-release"
   },
   "dependencies": {
-    "@slidev/types": "^0.36.4",
-    "codemirror-theme-vars": "^0.1.1",
-    "prism-theme-vars": "^0.2.4",
-    "theme-vitesse": "^0.4.10",
-    "vite-svg-loader": "^3.6.0"
+    "@slidev/types": "0.36.4",
+    "codemirror-theme-vars": "0.1.1",
+    "prism-theme-vars": "0.2.4",
+    "theme-vitesse": "0.4.10",
+    "vite-svg-loader": "3.6.0"
   },
   "devDependencies": {
-    "@iconify-json/mdi": "^1.1.32",
+    "@iconify-json/mdi": "1.1.32",
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/commit-analyzer": "^9.0.2",
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/github": "^8.0.6",
     "@semantic-release/npm": "^9.0.1",
     "@semantic-release/release-notes-generator": "^10.0.3",
-    "@slidev/cli": "^0.36.4",
+    "@slidev/cli": "0.36.4",
     "eslint": "^8.23.1",
     "eslint-plugin-vue": "^9.4.0",
-    "playwright-chromium": "^1.25.2",
-    "qrious": "^4.0.2"
+    "playwright-chromium": "1.25.2",
+    "qrious": "4.0.2"
   },
   "keywords": [
     "slidev-theme",
