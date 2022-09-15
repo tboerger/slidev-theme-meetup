@@ -28,7 +28,7 @@ layout: intro
 ---
 ```
 
-![intro slide](./example-export/001.png)
+![intro slide](https://media.githubusercontent.com/media/tboerger/slidev-theme-meetup/master/example-export/001.png)
 
 ### Presenter
 
@@ -39,7 +39,7 @@ photo: /images/tboerger.jpg
 ---
 ```
 
-![presenter slide](./example-export/002.png)
+![presenter slide](https://media.githubusercontent.com/media/tboerger/slidev-theme-meetup/master/example-export/002.png)
 
 ### Twocols
 
@@ -49,7 +49,7 @@ layout: twocols
 ---
 ```
 
-![twocols slide](./example-export/003.png)
+![twocols slide](https://media.githubusercontent.com/media/tboerger/slidev-theme-meetup/master/example-export/003.png)
 
 ### Center
 
@@ -59,7 +59,7 @@ layout: center
 ---
 ```
 
-![center slide](./example-export/004.png)
+![center slide](https://media.githubusercontent.com/media/tboerger/slidev-theme-meetup/master/example-export/004.png)
 
 ### Cover
 
@@ -69,7 +69,7 @@ layout: cover
 ---
 ```
 
-![cover slide](./example-export/005.png)
+![cover slide](https://media.githubusercontent.com/media/tboerger/slidev-theme-meetup/master/example-export/005.png)
 
 ### Default
 
@@ -79,7 +79,7 @@ layout: default
 ---
 ```
 
-![default slide](./example-export/006.png)
+![default slide](https://media.githubusercontent.com/media/tboerger/slidev-theme-meetup/master/example-export/006.png)
 
 ### Qrcode
 
@@ -90,7 +90,7 @@ url: https://example.com
 ---
 ```
 
-![qrcode slide](./example-export/007.png)
+![qrcode slide](https://media.githubusercontent.com/media/tboerger/slidev-theme-meetup/master/example-export/007.png)
 
 ## Components
 
