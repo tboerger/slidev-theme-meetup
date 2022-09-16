@@ -1,7 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Nunito);
-@import url(http://fonts.googleapis.com/css?family=Georgia);
-@import url(http://fonts.googleapis.com/css?family=Fira+Code);
-
 :root {
   --slidev-theme-primary: #5d8392;
   --slidev-code-font-size: 0.95rem;

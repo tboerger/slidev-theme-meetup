@@ -19,14 +19,14 @@
     "release": "semantic-release"
   },
   "dependencies": {
+    "@iconify-json/mdi": "1.1.32",
     "@slidev/types": "0.36.5",
     "codemirror-theme-vars": "0.1.1",
     "prism-theme-vars": "0.2.4",
-    "theme-vitesse": "0.5.2",
+    "qrious": "4.0.2",
     "vite-svg-loader": "3.6.0"
   },
   "devDependencies": {
-    "@iconify-json/mdi": "1.1.32",
     "@semantic-release/changelog": "6.0.1",
     "@semantic-release/commit-analyzer": "9.0.2",
     "@semantic-release/git": "10.0.1",
@@ -37,8 +37,7 @@
     "conventional-changelog-conventionalcommits": "5.0.0",
     "eslint": "8.23.1",
     "eslint-plugin-vue": "9.4.0",
-    "playwright-chromium": "1.25.2",
-    "qrious": "4.0.2"
+    "playwright-chromium": "1.25.2"
   },
   "keywords": [
     "slidev-theme",
@@ -53,7 +52,8 @@
     "highlighter": "all",
     "defaults": {
       "fonts": {
-        "sans": "Helvetica",
+        "sans": "Nunito",
+        "title": "Georgia",
         "mono": "Fira Code"
       },
       "hightlighter": "prism"
