@@ -24,6 +24,27 @@ themeConfig:
 ---
 ```
 
+This themes requires additional packages beside the theme itself and the above
+configuration:
+
+```console
+npm install vite-svg-loader qrious
+```
+
+Finally you also got to provide a customized `vite.config.js` as this is
+required to load the used SVGs:
+
+```ts
+import { defineConfig } from 'vite'
+import svgLoader from 'vite-svg-loader'
+
+export default defineConfig({
+  plugins: [
+    svgLoader(),
+  ],
+})
+```
+
 ## Examples
 
 ### Intro
