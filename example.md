@@ -1,27 +1,27 @@
 ---
 theme: ./
 layout: intro
+highlighter: prism
+lineNumbers: false
 themeConfig:
   title: Welcome to Slidev
-  twitter: tboerger
-  github: tboerger
+  twitter: example
+  github: example
 ---
 # Welcome to Slidev
 
 ---
 layout: presenter
-photo: /images/tboerger.jpg
+photo: https://source.unsplash.com/collection/94734566/1050x1400
 ---
-# Thomas Boerger
+# Max Mustermann
 
-Cloud engineer @ cloudpunks GmbH
+Software Engineer @ Mustermann GmbH
 
 * Golang
-* Containers
-* Kubernetes
-* Terraform
-* Ansible
-* Prometheus
+* Music
+* Cinema
+* Technics
 
 ---
 layout: twocols
