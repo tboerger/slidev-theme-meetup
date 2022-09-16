@@ -15,6 +15,12 @@ theme within the [documentation][themes].
 ```md
 ---
 theme: meetup
+layout: intro
+lineNumbers: false
+themeConfig:
+  title: Welcome to Slidev
+  twitter: example
+  github: example
 ---
 ```
 
@@ -116,6 +122,28 @@ General footer part of every slide.
 
 ```vue
 <LayoutFooter />
+```
+
+## Security
+
+If you find a security issue please contact thomas@boerger.ws first.
+
+## Contributing
+
+Fork -> Patch -> Push -> Pull Request
+
+## Authors
+
+*   [Thomas Boerger](https://github.com/tboerger)
+
+## License
+
+[CC-BY-SA-4.0](http://creativecommons.org/licenses/by-sa/4.0/)
+
+## Copyright
+
+```console
+Copyright (c) 2022 Thomas Boerger <thomas@boerger.ws>
 ```
 
 [slidev]: https://github.com/slidevjs/slidev
