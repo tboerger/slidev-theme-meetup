@@ -68,6 +68,32 @@ layout: cover
 # This is a cover
 
 ---
+layout: window
+---
+# Console
+
+::window::
+```ts
+const aspectRatioPlugin = plugin(({ addUtilities }) => {
+  const newUtilities = {
+    '.aspect-none': {
+      aspectRatio: 'none',
+    },
+    '.aspect-16-9': {
+      aspectRatio: '16/9',
+    },
+    '.aspect-4-3': {
+      aspectRatio: '4/3',
+    },
+    '.aspect-1-1': {
+      aspectRatio: '1/1',
+    },
+  }
+  addUtilities(newUtilities, ['responsive', 'hover'])
+})
+```
+
+---
 layout: default
 ---
 # What is Slidev?
