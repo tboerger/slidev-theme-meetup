@@ -98,6 +98,16 @@ layout: cover
 
 ![cover slide](https://media.githubusercontent.com/media/tboerger/slidev-theme-meetup/master/example-export/005.png)
 
+### Window
+
+```md
+---
+layout: window
+---
+```
+
+![window slide](https://media.githubusercontent.com/media/tboerger/slidev-theme-meetup/master/example-export/006.png)
+
 ### Default
 
 ```md
@@ -106,7 +116,7 @@ layout: default
 ---
 ```
 
-![default slide](https://media.githubusercontent.com/media/tboerger/slidev-theme-meetup/master/example-export/006.png)
+![default slide](https://media.githubusercontent.com/media/tboerger/slidev-theme-meetup/master/example-export/007.png)
 
 ### Qrcode
 
@@ -117,7 +127,7 @@ url: https://example.com
 ---
 ```
 
-![qrcode slide](https://media.githubusercontent.com/media/tboerger/slidev-theme-meetup/master/example-export/007.png)
+![qrcode slide](https://media.githubusercontent.com/media/tboerger/slidev-theme-meetup/master/example-export/008.png)
 
 ## Components
 
@@ -127,6 +137,16 @@ Just curves shown within the slides.
 
 ```vue
 <CornerCurves class="absolute left-0 top-0 transform rotate-90" />
+```
+
+### WindowConsole
+
+Display content in a terminal window.
+
+```vue
+<WindowConsole class="rounded-lg shadow-lg object-cover z-10">
+  Content
+</WindowConsole>
 ```
 
 ### LayoutHeader
