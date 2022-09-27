@@ -37,7 +37,7 @@
     "conventional-changelog-conventionalcommits": "5.0.0",
     "eslint": "8.24.0",
     "eslint-plugin-vue": "9.5.1",
-    "playwright-chromium": "1.26.0"
+    "playwright-chromium": "1.26.1"
   },
   "keywords": [
     "slidev-theme",
