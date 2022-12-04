@@ -18,6 +18,6 @@ jobs:
     runs-on: ubuntu-20.04
 
     steps:
-      - uses: dessant/lock-threads@v3
+      - uses: dessant/lock-threads@v4
 
 ...
