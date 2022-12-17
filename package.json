@@ -35,9 +35,9 @@
     "@semantic-release/release-notes-generator": "10.0.3",
     "@slidev/cli": "0.38.1",
     "conventional-changelog-conventionalcommits": "5.0.0",
-    "eslint": "8.29.0",
+    "eslint": "8.30.0",
     "eslint-plugin-vue": "9.8.0",
-    "playwright-chromium": "1.28.1"
+    "playwright-chromium": "1.29.0"
   },
   "keywords": [
     "slidev-theme",
