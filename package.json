@@ -31,7 +31,7 @@
     "@semantic-release/commit-analyzer": "9.0.2",
     "@semantic-release/git": "10.0.1",
     "@semantic-release/github": "8.0.7",
-    "@semantic-release/npm": "9.0.2",
+    "@semantic-release/npm": "10.0.2",
     "@semantic-release/release-notes-generator": "10.0.3",
     "@slidev/cli": "0.40.3",
     "conventional-changelog-conventionalcommits": "5.0.0",
