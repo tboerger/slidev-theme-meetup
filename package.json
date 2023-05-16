@@ -33,11 +33,11 @@
     "@semantic-release/github": "8.0.7",
     "@semantic-release/npm": "10.0.3",
     "@semantic-release/release-notes-generator": "11.0.1",
-    "@slidev/cli": "0.40.13",
+    "@slidev/cli": "0.40.16",
     "conventional-changelog-conventionalcommits": "5.0.0",
-    "eslint": "8.38.0",
-    "eslint-plugin-vue": "9.11.0",
-    "playwright-chromium": "1.32.3"
+    "eslint": "8.40.0",
+    "eslint-plugin-vue": "9.13.0",
+    "playwright-chromium": "1.33.0"
   },
   "keywords": [
     "slidev-theme",
