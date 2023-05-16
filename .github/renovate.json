@@ -1,65 +1,65 @@
 {
-    "extends": [
-        "config:base",
-        ":semanticCommits",
-        ":semanticCommitType(deps)",
-        ":automergeMinor"
-    ],
-    "packageRules": [
-        {
-            "description": "Semantic commits for major updates",
-            "groupName": "major updates",
-            "matchDatasources": [
-                "npm"
-            ],
-            "matchUpdateTypes": [
-                "major"
-            ],
-            "semanticCommitType": "deps",
-            "semanticCommitScope": "major",
-            "automerge": false
-        },
-        {
-            "description": "Semantic commits for minor updates",
-            "groupName": "minor updates",
-            "matchDatasources": [
-                "npm"
-            ],
-            "matchUpdateTypes": [
-                "minor"
-            ],
-            "semanticCommitType": "deps",
-            "semanticCommitScope": "minor",
-            "automerge": true
-        },
-        {
-            "description": "Semantic commits for patch updates",
-            "groupName": "patch updates",
-            "matchDatasources": [
-                "npm"
-            ],
-            "matchUpdateTypes": [
-                "patch"
-            ],
-            "semanticCommitType": "deps",
-            "semanticCommitScope": "patch",
-            "automerge": true
-        },
-        {
-            "description": "Semantic commits for tools updates",
-            "groupName": "tools updates",
-            "matchDatasources": [
-                "npm"
-            ],
-            "matchDepTypes": [
-                "devDependencies"
-            ],
-            "semanticCommitType": "ci",
-            "semanticCommitScope": "tools",
-            "automerge": true
-        }
-    ],
-    "labels": [
-        "renovate"
-    ]
-  }
+  "extends": [
+    "config:base",
+    ":semanticCommits",
+    ":semanticCommitType(deps)",
+    ":automergeMinor"
+  ],
+  "packageRules": [
+    {
+      "description": "Semantic commits for major updates",
+      "groupName": "major updates",
+      "matchDatasources": [
+        "npm"
+      ],
+      "matchUpdateTypes": [
+        "major"
+      ],
+      "semanticCommitType": "major",
+      "semanticCommitScope": "deps",
+      "automerge": false
+    },
+    {
+      "description": "Semantic commits for minor updates",
+      "groupName": "minor updates",
+      "matchDatasources": [
+        "npm"
+      ],
+      "matchUpdateTypes": [
+        "minor"
+      ],
+      "semanticCommitType": "minor",
+      "semanticCommitScope": "deps",
+      "automerge": true
+    },
+    {
+      "description": "Semantic commits for patch updates",
+      "groupName": "patch updates",
+      "matchDatasources": [
+        "npm"
+      ],
+      "matchUpdateTypes": [
+        "patch"
+      ],
+      "semanticCommitType": "patch",
+      "semanticCommitScope": "deps",
+      "automerge": true
+    },
+    {
+      "description": "Semantic commits for tools updates",
+      "groupName": "tools updates",
+      "matchDatasources": [
+        "npm"
+      ],
+      "matchDepTypes": [
+        "devDependencies"
+      ],
+      "semanticCommitType": "ci",
+      "semanticCommitScope": "tools",
+      "automerge": true
+    }
+  ],
+  "labels": [
+    "renovate"
+  ]
+}
