@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.1](https://github.com/tboerger/slidev-theme-meetup/compare/v1.2.0...v1.2.1) (2023-05-16)
+
+
+### Bug Fixes
+
+* import layoutHelper with file extension ([94bca7a](https://github.com/tboerger/slidev-theme-meetup/commit/94bca7a3de43a1c3ed46d46c79b38731c17cdb4d))
+* raise node version to v18 ([dc32797](https://github.com/tboerger/slidev-theme-meetup/commit/dc32797fb9012af7ce12ca73b8787cb1c4422bea))
+
 ## [1.2.0](https://github.com/tboerger/slidev-theme-meetup/compare/v1.1.0...v1.2.0) (2022-09-19)
 
 
