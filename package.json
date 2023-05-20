@@ -33,7 +33,7 @@
     "@semantic-release/github": "8.0.7",
     "@semantic-release/npm": "10.0.3",
     "@semantic-release/release-notes-generator": "11.0.1",
-    "@slidev/cli": "0.41.0",
+    "@slidev/cli": "0.41.1",
     "conventional-changelog-conventionalcommits": "5.0.0",
     "eslint": "8.41.0",
     "eslint-plugin-vue": "9.13.0",
