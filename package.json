@@ -35,7 +35,7 @@
     "@semantic-release/release-notes-generator": "11.0.2",
     "@slidev/cli": "0.42.3",
     "conventional-changelog-conventionalcommits": "5.0.0",
-    "eslint": "8.41.0",
+    "eslint": "8.42.0",
     "eslint-plugin-vue": "9.14.1",
     "playwright-chromium": "1.34.3"
   },
