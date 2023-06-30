@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.3.0](https://github.com/tboerger/slidev-theme-meetup/compare/v1.2.1...v1.3.0) (2023-06-30)
+
+
+### Features
+
+* **deps:** update dependency @slidev/types to v0.41.0 ([d04539e](https://github.com/tboerger/slidev-theme-meetup/commit/d04539ed129a7e9523a3717d6dd02f8b31aedd4c))
+* **deps:** update dependency @slidev/types to v0.42.0 ([b0c0dfe](https://github.com/tboerger/slidev-theme-meetup/commit/b0c0dfec32542c57b703933c14b8405911238b18))
+
+
+### Bugfixes
+
+* **deps:** update dependency @slidev/types to v0.41.1 ([314fd82](https://github.com/tboerger/slidev-theme-meetup/commit/314fd8211d5e8589b1ff7f86a7a70c40567a0d5d))
+* **deps:** update dependency @slidev/types to v0.42.1 ([0e3e69f](https://github.com/tboerger/slidev-theme-meetup/commit/0e3e69f86b5464064c420db0aefdc9e26d4ecc41))
+* **deps:** update dependency @slidev/types to v0.42.3 ([8aae765](https://github.com/tboerger/slidev-theme-meetup/commit/8aae76595f6a924e36d985cfa3019743dc9a8ab0))
+* **deps:** update dependency @slidev/types to v0.42.4 ([51e0f81](https://github.com/tboerger/slidev-theme-meetup/commit/51e0f812906736933968ec68fb79e241040a134f))
+* **deps:** update dependency @slidev/types to v0.42.5 ([7a84bc1](https://github.com/tboerger/slidev-theme-meetup/commit/7a84bc1f8fef6e295fc14e971d7f61ab4c52b6de))
+
 ## [1.2.1](https://github.com/tboerger/slidev-theme-meetup/compare/v1.2.0...v1.2.1) (2023-05-16)
 
 
