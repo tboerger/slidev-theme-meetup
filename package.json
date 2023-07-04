@@ -32,7 +32,7 @@
     "@semantic-release/git": "10.0.1",
     "@semantic-release/github": "9.0.3",
     "@semantic-release/npm": "10.0.4",
-    "@semantic-release/release-notes-generator": "11.0.3",
+    "@semantic-release/release-notes-generator": "11.0.4",
     "@slidev/cli": "0.42.5",
     "conventional-changelog-conventionalcommits": "6.1.0",
     "eslint": "8.44.0",
