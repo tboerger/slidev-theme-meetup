@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.1](https://github.com/tboerger/slidev-theme-meetup/compare/v1.3.0...v1.3.1) (2023-07-11)
+
+
+### Bugfixes
+
+* **deps:** update dependency @iconify-json/mdi to v1.1.53 ([cc27c9d](https://github.com/tboerger/slidev-theme-meetup/commit/cc27c9d4738243452913fdcabb46c8b5052be4ca))
+
 ## [1.3.0](https://github.com/tboerger/slidev-theme-meetup/compare/v1.2.1...v1.3.0) (2023-06-30)
 
 
