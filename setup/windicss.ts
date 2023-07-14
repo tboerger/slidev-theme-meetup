@@ -38,16 +38,5 @@ export default defineWindiSetup(() => ({
   },
   plugins: [
     aspectRatioPlugin,
-    plugin(function ({ addUtilities, variants }) {
-      const newUtilities = {
-        '.flip-y': {
-          '--tw-scale-y': '-1 !important',
-        },
-        '.flip-x': {
-          '--tw-scale-x': '-1 !important',
-        },
-      }
-      addUtilities(newUtilities, variants('flip'))
-    }),
   ],
 }))
