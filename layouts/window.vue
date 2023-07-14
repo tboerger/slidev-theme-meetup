@@ -1,6 +1,6 @@
 <template>
   <div class="slidev-layout">
-    <LayoutHeader class="absolute bottom-0 right-0 transform flip-x" />
+    <LayoutHeader class="absolute bottom-0 right-0 transform rotate-y-180" />
     <div
       class="top"
     >
