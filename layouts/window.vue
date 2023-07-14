@@ -13,7 +13,7 @@
       class="bottom"
     >
       <slot name="bottom" />
-      <LayoutFooter />
     </div>
+    <LayoutFooter />
   </div>
 </template>

@@ -33,8 +33,8 @@ const props = defineProps({
       :class="props.class"
     >
       <slot name="bottom" />
-      <LayoutFooter />
     </div>
+    <LayoutFooter />
   </div>
 </template>
 
