@@ -9,11 +9,11 @@ const props = defineProps({
 
 <template>
   <div class="slidev-layout default col-grid">
+    <LayoutHeader class="absolute bottom-0 right-0 transform rotate-y-180" />
     <div
       class="top"
       :class="props.class"
     >
-      <LayoutHeader class="absolute bottom-0 right-0 transform flip-x" />
       <slot />
     </div>
     <div
@@ -33,8 +33,8 @@ const props = defineProps({
       :class="props.class"
     >
       <slot name="bottom" />
-      <LayoutFooter />
     </div>
+    <LayoutFooter />
   </div>
 </template>
 

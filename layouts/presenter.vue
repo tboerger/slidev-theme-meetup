@@ -14,7 +14,7 @@
 
 <template>
   <div class="slidev-layout presenter">
-    <LayoutHeader class="absolute bottom-0 right-0 transform flip-x" />
+    <LayoutHeader class="absolute bottom-0 right-0 transform rotate-y-180" />
     <div class="grid grid-cols-2 w-full h-full">
       <div class="image-right">
         <slot />
