@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/tboerger/slidev-theme-meetup/compare/v1.3.1...v1.4.0) (2023-07-20)
+
+
+### Features
+
+* improve element placement issues and get rid of flip-x ([69c90f2](https://github.com/tboerger/slidev-theme-meetup/commit/69c90f2b6ed5cac1683680cf3416088f1968da0e))
+
 ## [1.3.1](https://github.com/tboerger/slidev-theme-meetup/compare/v1.3.0...v1.3.1) (2023-07-11)
 
 
