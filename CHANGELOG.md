@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.2](https://github.com/tboerger/slidev-theme-meetup/compare/v1.4.1...v1.4.2) (2023-08-06)
+
+
+### Bugfixes
+
+* **deps:** update patch updates ([ad619d9](https://github.com/tboerger/slidev-theme-meetup/commit/ad619d90ffe061275d4f755307b3495d89e47af1))
+
 ## [1.4.1](https://github.com/tboerger/slidev-theme-meetup/compare/v1.4.0...v1.4.1) (2023-08-02)
 
 
