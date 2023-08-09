@@ -2,29 +2,22 @@
   "extends": [
     "config:base",
     ":semanticCommits",
-    ":semanticCommitType(deps)",
-    ":automergeMinor"
+    ":semanticCommitType(deps)"
   ],
   "packageRules": [
     {
       "description": "Semantic commits for major updates",
-      "groupName": "major updates",
-      "matchDatasources": [
-        "npm"
-      ],
+      "groupName": "major versions",
       "matchUpdateTypes": [
         "major"
       ],
       "semanticCommitType": "major",
       "semanticCommitScope": "deps",
-      "automerge": false
+      "automerge": true
     },
     {
       "description": "Semantic commits for minor updates",
-      "groupName": "minor updates",
-      "matchDatasources": [
-        "npm"
-      ],
+      "groupName": "minor versions",
       "matchUpdateTypes": [
         "minor"
       ],
@@ -34,10 +27,7 @@
     },
     {
       "description": "Semantic commits for patch updates",
-      "groupName": "patch updates",
-      "matchDatasources": [
-        "npm"
-      ],
+      "groupName": "patch versions",
       "matchUpdateTypes": [
         "patch"
       ],
@@ -53,6 +43,16 @@
       ],
       "matchDepTypes": [
         "devDependencies"
+      ],
+      "semanticCommitType": "ci",
+      "semanticCommitScope": "tools",
+      "automerge": true
+    },
+    {
+      "description": "Build tool version upgrades",
+      "groupName": "build tools",
+      "matchManagers": [
+        "github-actions"
       ],
       "semanticCommitType": "ci",
       "semanticCommitScope": "tools",
