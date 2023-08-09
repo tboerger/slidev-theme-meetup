@@ -5,14 +5,16 @@ name: build
   push:
     branches:
       - master
+  pull_request:
+    branches:
+      - master
 
 jobs:
   build:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout source
-        id: source
         uses: actions/checkout@v3
 
       - name: Setup nodejs
@@ -23,13 +25,17 @@ jobs:
       - name: Install deps
         run: npm ci
 
+      - name: Run linting
+        run: npm run lint
+
       - name: Run build
         run: npm run build
 
       - name: Run release
-        run: npm run release
+        if: github.ref == 'refs/heads/master' && github.event_name == 'push'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: npm run release
 
 ...
