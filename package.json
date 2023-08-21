@@ -31,13 +31,13 @@
     "@semantic-release/commit-analyzer": "10.0.1",
     "@semantic-release/git": "10.0.1",
     "@semantic-release/github": "9.0.4",
-    "@semantic-release/npm": "10.0.4",
+    "@semantic-release/npm": "10.0.5",
     "@semantic-release/release-notes-generator": "11.0.4",
-    "@slidev/cli": "0.42.7",
+    "@slidev/cli": "0.42.9",
     "conventional-changelog-conventionalcommits": "6.1.0",
     "eslint": "8.47.0",
     "eslint-plugin-vue": "9.17.0",
-    "playwright-chromium": "1.37.0"
+    "playwright-chromium": "1.37.1"
   },
   "keywords": [
     "slidev-theme",
