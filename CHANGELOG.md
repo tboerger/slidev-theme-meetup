@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.6](https://github.com/tboerger/slidev-theme-meetup/compare/v1.4.5...v1.4.6) (2023-08-31)
+
+
+### Bugfixes
+
+* downgrade conventional-changelog-conventionalcommits to get releases working again ([95e7c99](https://github.com/tboerger/slidev-theme-meetup/commit/95e7c99bce16493ac6db868863791e8381c34b69))
+
 ## [1.4.5](https://github.com/tboerger/slidev-theme-meetup/compare/v1.4.4...v1.4.5) (2023-08-26)
 
 
