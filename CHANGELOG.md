@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.1](https://github.com/tboerger/slidev-theme-meetup/compare/v1.5.0...v1.5.1) (2023-09-07)
+
+
+### Bugfixes
+
+* **deps:** update dependency @slidev/types to v0.43.1 ([dbfc41f](https://github.com/tboerger/slidev-theme-meetup/commit/dbfc41fceb1565e64cc7949efdce97597735ebc8))
+
 ## [1.5.0](https://github.com/tboerger/slidev-theme-meetup/compare/v1.4.6...v1.5.0) (2023-09-05)
 
 
