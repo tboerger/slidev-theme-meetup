@@ -33,10 +33,10 @@
     "@semantic-release/github": "9.2.1",
     "@semantic-release/npm": "11.0.0",
     "@semantic-release/release-notes-generator": "12.0.0",
-    "@slidev/cli": "0.43.8",
+    "@slidev/cli": "0.43.10",
     "conventional-changelog-conventionalcommits": "7.0.2",
     "eslint": "8.52.0",
-    "eslint-plugin-vue": "9.18.0",
+    "eslint-plugin-vue": "9.18.1",
     "playwright-chromium": "1.39.0"
   },
   "keywords": [
