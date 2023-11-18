@@ -24,7 +24,7 @@
     "codemirror-theme-vars": "0.1.2",
     "prism-theme-vars": "0.2.4",
     "qrious": "4.0.2",
-    "vite-svg-loader": "4.0.0"
+    "vite-svg-loader": "5.0.1"
   },
   "devDependencies": {
     "@semantic-release/changelog": "6.0.3",
