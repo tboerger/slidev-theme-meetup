@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "@iconify-json/mdi": "1.1.64",
-    "@slidev/types": "0.48.3",
+    "@slidev/types": "0.48.4",
     "codemirror-theme-vars": "0.1.2",
     "prism-theme-vars": "0.2.4",
     "qrious": "4.0.2",
