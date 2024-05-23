@@ -1,16 +1,16 @@
 <script setup lang="ts">
-  import { computed } from 'vue'
-  import { resolveAssetUrl } from '@slidev/client/layoutHelper.ts'
+import { computed } from 'vue'
+import { resolveAssetUrl } from '@slidev/client/layoutHelper.ts'
 
-  const props = defineProps({
-    photo: {
-      type: String,
-      default: '',
-    },
-  })
+const props = defineProps({
+  photo: {
+    type: String,
+    default: '',
+  },
+})
 
-  const photoSrc = computed(() => resolveAssetUrl(props.photo))
-  </script>
+const photoSrc = computed(() => resolveAssetUrl(props.photo))
+</script>
 
 <template>
   <div class="slidev-layout presenter">

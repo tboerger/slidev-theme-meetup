@@ -1,7 +1,7 @@
-import { resolve } from 'path'
+import { resolve } from 'node:path'
 import { defineWindiSetup } from '@slidev/types'
 
-const plugin = require('windicss/plugin')
+import plugin from 'windicss/plugin'
 
 const aspectRatioPlugin = plugin(({ addUtilities }) => {
   const newUtilities = {
@@ -34,7 +34,7 @@ export default defineWindiSetup(() => ({
         title: ['Georgia', 'serif'],
         mono: ['Fira Code', 'ui-monospace'],
       },
-    }
+    },
   },
   plugins: [
     aspectRatioPlugin,

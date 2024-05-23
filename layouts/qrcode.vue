@@ -10,10 +10,10 @@ const props = defineProps({
 })
 
 const qrcode = computed(() => {
-    return new QRious({
-        value: props.url,
-        size: 300
-    }).toDataURL()
+  return new QRious({
+    value: props.url,
+    size: 300,
+  }).toDataURL()
 })
 </script>
 
