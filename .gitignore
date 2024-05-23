@@ -1,3 +1,6 @@
+.direnv
+.devenv
+
 /node_modules
 /dist
 

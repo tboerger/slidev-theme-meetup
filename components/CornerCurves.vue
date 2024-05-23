@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import CurveLarge from "./assets/curve-large.svg";
-import CurveSmall from "./assets/curve-small.svg";
+import CurveLarge from './assets/curve-large.svg'
+import CurveSmall from './assets/curve-small.svg'
 </script>
 
 <template>
