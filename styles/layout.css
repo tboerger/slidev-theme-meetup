@@ -172,3 +172,7 @@ html.dark {
 :not(li) > ol > li:not(li:first-child) {
   margin-top: 1rem;
 }
+
+.slidev-code-wrapper {
+  text-align: left;
+}
