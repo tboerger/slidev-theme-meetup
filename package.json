@@ -27,7 +27,7 @@
     "release": "semantic-release"
   },
   "dependencies": {
-    "@iconify-json/mdi": "1.1.67",
+    "@iconify-json/mdi": "1.1.68",
     "@slidev/types": "0.49.23",
     "codemirror-theme-vars": "0.1.2",
     "prism-theme-vars": "0.2.5",
