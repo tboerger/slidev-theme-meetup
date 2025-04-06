@@ -2,6 +2,7 @@
 name: build
 
 "on":
+  workflow_dispatch:
   push:
     branches:
       - master
@@ -20,10 +21,12 @@ jobs:
       - name: Setup nodejs
         uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 22.x
+          cache: 'npm'
+          cache-dependency-path: package-lock.json
 
       - name: Install deps
-        run: npm ci
+        run: npm install --ci
 
       - name: Run linting
         run: npm run lint
@@ -31,11 +34,11 @@ jobs:
       - name: Run build
         run: npm run build
 
-      - name: Run release
-        if: github.ref == 'refs/heads/master' && github.event_name == 'push'
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: npm run release
+      # - name: Run release
+      #   if: github.ref == 'refs/heads/master' && github.event_name == 'push'
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.BOT_ACCESS_TOKEN }}
+      #     NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      #   run: npm run release
 
 ...

@@ -1,0 +1,45 @@
+---
+name: flake
+
+"on":
+  workflow_dispatch:
+  schedule:
+    - cron: "0 8 * * 1"
+
+permissions:
+  contents: write
+
+jobs:
+  flake:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source
+        id: source
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.BOT_ACCESS_TOKEN }}
+
+      - name: Install nix
+        id: nix
+        uses: cachix/install-nix-action@v31
+
+      - name: Update flake
+        id: flake
+        run: nix flake update
+
+      - name: Source rebase
+        id: rebase
+        run: git pull --autostash --rebase
+
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: GitHub Actions
+          author_email: github@webhippie.de
+          add: flake.lock
+          message: "chore(flake): updated lockfile [skip ci]"
+          push: true
+          commit: --signoff
+
+...
