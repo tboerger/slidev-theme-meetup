@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { computed } from 'vue'
 import QRious from 'qrious'
+import { computed } from 'vue'
 
 const props = defineProps({
   url: {
