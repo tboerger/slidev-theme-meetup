@@ -55,7 +55,7 @@ layout: intro
 ---
 ```
 
-![intro slide](https://raw.githubusercontent.com/tboerger/slidev-theme-meetup/master/example-export/001.png)
+![intro slide](https://raw.githubusercontent.com/tboerger/slidev-theme-meetup/master/example-export/1.png)
 
 ### Presenter
 
@@ -66,7 +66,7 @@ photo: /images/tboerger.jpg
 ---
 ```
 
-![presenter slide](https://raw.githubusercontent.com/tboerger/slidev-theme-meetup/master/example-export/002.png)
+![presenter slide](https://raw.githubusercontent.com/tboerger/slidev-theme-meetup/master/example-export/2.png)
 
 ### Twocols
 
@@ -76,7 +76,7 @@ layout: twocols
 ---
 ```
 
-![twocols slide](https://raw.githubusercontent.com/tboerger/slidev-theme-meetup/master/example-export/003.png)
+![twocols slide](https://raw.githubusercontent.com/tboerger/slidev-theme-meetup/master/example-export/3.png)
 
 ### Center
 
@@ -86,7 +86,7 @@ layout: center
 ---
 ```
 
-![center slide](https://raw.githubusercontent.com/tboerger/slidev-theme-meetup/master/example-export/004.png)
+![center slide](https://raw.githubusercontent.com/tboerger/slidev-theme-meetup/master/example-export/4.png)
 
 ### Cover
 
@@ -96,7 +96,7 @@ layout: cover
 ---
 ```
 
-![cover slide](https://raw.githubusercontent.com/tboerger/slidev-theme-meetup/master/example-export/005.png)
+![cover slide](https://raw.githubusercontent.com/tboerger/slidev-theme-meetup/master/example-export/5.png)
 
 ### Window
 
@@ -106,7 +106,7 @@ layout: window
 ---
 ```
 
-![window slide](https://raw.githubusercontent.com/tboerger/slidev-theme-meetup/master/example-export/006.png)
+![window slide](https://raw.githubusercontent.com/tboerger/slidev-theme-meetup/master/example-export/6.png)
 
 ### Default
 
@@ -116,7 +116,7 @@ layout: default
 ---
 ```
 
-![default slide](https://raw.githubusercontent.com/tboerger/slidev-theme-meetup/master/example-export/007.png)
+![default slide](https://raw.githubusercontent.com/tboerger/slidev-theme-meetup/master/example-export/7.png)
 
 ### Qrcode
 
@@ -127,7 +127,7 @@ url: https://example.com
 ---
 ```
 
-![qrcode slide](https://raw.githubusercontent.com/tboerger/slidev-theme-meetup/master/example-export/008.png)
+![qrcode slide](https://raw.githubusercontent.com/tboerger/slidev-theme-meetup/master/example-export/8.png)
 
 ## Components
 

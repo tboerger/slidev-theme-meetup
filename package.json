@@ -30,7 +30,6 @@
     "@iconify-json/mdi": "1.2.3",
     "@slidev/types": "51.5.0",
     "codemirror-theme-vars": "0.1.2",
-    "prism-theme-vars": "0.2.5",
     "qrious": "4.0.2",
     "vite-svg-loader": "5.1.0"
   },
@@ -50,14 +49,12 @@
   },
   "slidev": {
     "colorSchema": "both",
-    "highlighter": "all",
     "defaults": {
       "fonts": {
         "sans": "Nunito",
         "title": "Georgia",
         "mono": "Fira Code"
-      },
-      "hightlighter": "prism"
+      }
     }
   }
 }
