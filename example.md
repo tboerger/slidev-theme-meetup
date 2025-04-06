@@ -1,7 +1,7 @@
 ---
 theme: ./
 layout: intro
-highlighter: prism
+highlighter: shiki
 lineNumbers: false
 themeConfig:
   title: Welcome to Slidev
@@ -12,7 +12,7 @@ themeConfig:
 
 ---
 layout: presenter
-photo: https://source.unsplash.com/collection/94734566/1050x1400
+photo: https://images.pexels.com/photos/6727154/pexels-photo-6727154.jpeg
 ---
 # Max Mustermann
 

@@ -153,6 +153,10 @@ html.dark {
   li {
     line-height: 1.6em;
   }
+
+  pre.shiki {
+    text-align: left;
+  }
 }
 
 .slidev-layout.intro,
