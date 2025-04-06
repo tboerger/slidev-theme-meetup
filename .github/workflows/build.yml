@@ -34,11 +34,11 @@ jobs:
       - name: Run build
         run: npm run build
 
-      # - name: Run release
-      #   if: github.ref == 'refs/heads/master' && github.event_name == 'push'
-      #   env:
-      #     GITHUB_TOKEN: ${{ secrets.BOT_ACCESS_TOKEN }}
-      #     NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-      #   run: npm run release
+      - name: Run release
+        if: github.ref == 'refs/heads/master' && github.event_name == 'push'
+        env:
+          GITHUB_TOKEN: ${{ secrets.BOT_ACCESS_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: npm run release
 
 ...
