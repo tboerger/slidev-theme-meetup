@@ -11,8 +11,8 @@ repository:
 
   default_branch: master
 
+  allow_merge_commit: false
   allow_squash_merge: true
-  allow_merge_commit: true
   allow_rebase_merge: true
 
   allow_update_branch: true
@@ -21,19 +21,123 @@ repository:
   enable_automated_security_fixes: true
   enable_vulnerability_alerts: true
 
-branches:
-  - name: master
-    protection:
-      required_pull_request_reviews: null
-      required_status_checks:
-        strict: true
-        contexts:
-          - tests
-      enforce_admins: false
-      restrictions:
-        apps:
-          - renovate
-        users: []
-        teams: []
+rulesets:
+  - name: prevent destruction
+    target: branch
+    enforcement: active
+    conditions:
+      ref_name:
+        include:
+          - "~DEFAULT_BRANCH"
+        exclude: []
+    rules:
+      - type: required_linear_history
+      - type: deletion
+      - type: non_fast_forward
+
+  - name: check verification
+    target: branch
+    enforcement: active
+    conditions:
+      ref_name:
+        include:
+          - "~DEFAULT_BRANCH"
+        exclude: []
+    rules:
+      - type: required_status_checks
+        parameters:
+          strict_required_status_checks_policy: true
+          required_status_checks:
+            - context: Semantic PR
+              integration_id: 198092
+            - context: build
+              integration_id: 15368
+    bypass_actors: []
+
+  - name: require reviewing
+    target: branch
+    enforcement: active
+    conditions:
+      ref_name:
+        include:
+          - "~DEFAULT_BRANCH"
+        exclude: []
+    rules:
+      - type: pull_request
+        parameters:
+          allowed_merge_methods:
+            - squash
+            - rebase
+          dismiss_stale_reviews_on_push: false
+          require_code_owner_review: false
+          require_last_push_approval: false
+          required_approving_review_count: 0
+          required_review_thread_resolution: false
+    bypass_actors: []
+
+labels:
+  - name: bug
+    color: fc2929
+    description: Something isn't working
+  - name: duplicate
+    color: cccccc
+    description: This issue or pull request already exists
+  - name: enhancement
+    color: 84b6eb
+    description: New feature or request
+  - name: good first issue
+    color: 7057ff
+    description: Good for newcomers
+  - name: help wanted
+    color: 159818
+    description: Extra attention is needed
+  - name: invalid
+    color: e6e6e6
+    description: This doesn't seem right
+  - name: question
+    color: cc317c
+    description: Further information is requested
+  - name: renovate
+    color: 1d76db
+    description: Automated action from Renovate
+  - name: wontfix
+    color: 5319e7
+    description: This will not be worked on
+  - name: hacktoberfest
+    color: d4c5f9
+    description: Contribution at Hacktoberfest appreciated
+  - name: ready
+    color: ededed
+    description: This is ready to be worked on
+  - name: in progress
+    color: ededed
+    description: This is currently worked on
+  - name: infra
+    color: 006b75
+    description: Related to the infrastructure
+  - name: lint
+    color: fbca04
+    description: Related to linting tools
+  - name: poc
+    color: c2e0c6
+    description: Proof of concept for new feature
+  - name: rebase
+    color: ffa8a5
+    description: Branch requires a rebase
+  - name: third-party
+    color: e99695
+    description: Depends on third-party tool or library
+  - name: translation
+    color: b60205
+    description: Change or issue related to translations
+  - name: ci
+    color: b60105
+    description: Related to Continous Integration
+  - name: docs
+    color: b60305
+    description: Related to documentation
+  - name: outdated
+    color: cccccc
+    description: This is out of scope and outdated
 
 ...
