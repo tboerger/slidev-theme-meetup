@@ -52,7 +52,10 @@ rulesets:
             #   integration_id: 198092
             - context: build
               integration_id: 15368
-    bypass_actors: []
+    bypass_actors:
+      - actor_id: 2
+        actor_type: RepositoryRole
+        bypass_mode: always
 
   - name: require reviewing
     target: branch
@@ -73,7 +76,10 @@ rulesets:
           require_last_push_approval: false
           required_approving_review_count: 0
           required_review_thread_resolution: false
-    bypass_actors: []
+    bypass_actors:
+      - actor_id: 2
+        actor_type: RepositoryRole
+        bypass_mode: always
 
 labels:
   - name: bug
