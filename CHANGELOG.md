@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.1.1](https://github.com/tboerger/slidev-theme-meetup/compare/v2.1.0...v2.1.1) (2025-05-16)
+
+### Bugfixes
+
+* **deps:** update dependency @slidev/types to v51.6.1 ([#463](https://github.com/tboerger/slidev-theme-meetup/issues/463)) ([91ccc11](https://github.com/tboerger/slidev-theme-meetup/commit/91ccc11f84b72cbb2ad065cca1e8537829eac5a7))
+
 ## [2.1.0](https://github.com/tboerger/slidev-theme-meetup/compare/v2.0.0...v2.1.0) (2025-04-26)
 
 ### Features
