@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "@iconify-json/mdi": "1.2.3",
-    "@slidev/types": "51.6.2",
+    "@slidev/types": "51.7.1",
     "codemirror-theme-vars": "0.1.2",
     "qrious": "4.0.2",
     "vite-svg-loader": "5.1.0"
