@@ -41,7 +41,7 @@
     "@semantic-release/github": "11.0.2",
     "@semantic-release/npm": "12.0.1",
     "@semantic-release/release-notes-generator": "14.0.3",
-    "@slidev/cli": "51.7.1",
+    "@slidev/cli": "51.8.0",
     "conventional-changelog-conventionalcommits": "9.0.0",
     "eslint": "9.27.0",
     "eslint-plugin-vue": "10.1.0",
