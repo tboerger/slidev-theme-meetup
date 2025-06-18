@@ -45,7 +45,7 @@
     "conventional-changelog-conventionalcommits": "9.0.0",
     "eslint": "9.29.0",
     "eslint-plugin-vue": "10.2.0",
-    "playwright-chromium": "1.53.0"
+    "playwright-chromium": "1.53.1"
   },
   "slidev": {
     "colorSchema": "both",
