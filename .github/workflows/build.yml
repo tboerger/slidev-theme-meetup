@@ -19,7 +19,7 @@ jobs:
         uses: actions/checkout@v5
 
       - name: Setup nodejs
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
           node-version: 22.x
           cache: 'npm'
@@ -46,7 +46,7 @@ jobs:
           token: ${{ secrets.BOT_ACCESS_TOKEN }}
 
       - name: Setup nodejs
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
           node-version: 22.x
           cache: 'npm'
