@@ -44,7 +44,7 @@
     "@slidev/cli": "52.2.4",
     "conventional-changelog-conventionalcommits": "9.1.0",
     "eslint": "9.36.0",
-    "eslint-plugin-vue": "10.4.0",
+    "eslint-plugin-vue": "10.5.0",
     "playwright-chromium": "1.55.0"
   },
   "slidev": {
