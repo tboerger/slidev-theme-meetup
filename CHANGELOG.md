@@ -1,5 +1,11 @@
 # Changelog
 
+## [3.9.0](https://github.com/tboerger/slidev-theme-meetup/compare/v3.8.0...v3.9.0) (2025-11-18)
+
+### Features
+
+* **deps:** update dependency @slidev/types to v52.9.0 ([#566](https://github.com/tboerger/slidev-theme-meetup/issues/566)) ([5b2b73a](https://github.com/tboerger/slidev-theme-meetup/commit/5b2b73a268e5124645afd52bc5313a7d93d22625))
+
 ## [3.8.0](https://github.com/tboerger/slidev-theme-meetup/compare/v3.7.0...v3.8.0) (2025-11-08)
 
 ### Features
