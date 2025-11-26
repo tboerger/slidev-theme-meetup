@@ -1,38 +1,73 @@
 {
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:recommended",
+    "config:best-practices",
+    ":disableRateLimiting",
+    ":prImmediately",
     ":semanticCommits",
     ":semanticCommitType(deps)"
   ],
+  "dockerfile": {
+    "pinDigests": true
+  },
+  "gomod": {
+    "postUpdateOptions": [
+      "gomodUpdateImportPaths",
+      "gomodTidy"
+    ]
+  },
   "packageRules": [
     {
       "description": "Semantic commits for major updates",
-      "groupName": "major versions",
       "matchUpdateTypes": [
         "major"
       ],
-      "semanticCommitType": "major",
-      "semanticCommitScope": "deps",
+      "semanticCommitType": "deps",
+      "semanticCommitScope": "major",
       "automerge": true
     },
     {
       "description": "Semantic commits for minor updates",
-      "groupName": "minor versions",
       "matchUpdateTypes": [
         "minor"
       ],
-      "semanticCommitType": "minor",
-      "semanticCommitScope": "deps",
+      "semanticCommitType": "deps",
+      "semanticCommitScope": "minor",
       "automerge": true
     },
     {
       "description": "Semantic commits for patch updates",
-      "groupName": "patch versions",
       "matchUpdateTypes": [
         "patch"
       ],
+      "semanticCommitType": "deps",
+      "semanticCommitScope": "patch",
+      "automerge": true
+    },
+    {
+      "description": "Automerge docker digest updates",
+      "groupName": "docker digests",
+      "matchDatasources": [
+        "docker"
+      ],
+      "matchUpdateTypes": [
+        "pin",
+        "pinDigest",
+        "digest"
+      ],
       "semanticCommitType": "patch",
       "semanticCommitScope": "deps",
+      "pinDigests": true,
+      "automerge": true
+    },
+    {
+      "description": "Build tool version upgrades",
+      "groupName": "build tools",
+      "matchManagers": [
+        "github-actions"
+      ],
+      "semanticCommitType": "ci",
+      "semanticCommitScope": "tools",
       "automerge": true
     },
     {
@@ -43,16 +78,6 @@
       ],
       "matchDepTypes": [
         "devDependencies"
-      ],
-      "semanticCommitType": "ci",
-      "semanticCommitScope": "tools",
-      "automerge": true
-    },
-    {
-      "description": "Build tool version upgrades",
-      "groupName": "build tools",
-      "matchManagers": [
-        "github-actions"
       ],
       "semanticCommitType": "ci",
       "semanticCommitScope": "tools",
