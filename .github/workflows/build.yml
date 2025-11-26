@@ -55,11 +55,8 @@ jobs:
         with:
           token: ${{ secrets.BOT_ACCESS_TOKEN }}
 
-      - name: Setup nodejs
-        uses: actions/setup-node@2028fbc5c25fe9cf00d9f06a71cc4710d4507903 # v6
-        with:
-          node-version: 24.x
-          cache: 'npm'
+      - name: Write buildtime
+        run: date >| .github/RELEASE
 
       - name: Install releaser
         run: |
@@ -68,11 +65,25 @@ jobs:
             semantic-release@25.0.2 \
             @semantic-release/changelog \
             @semantic-release/git \
+            @semantic-release/github \
             @semantic-release/npm
 
-      - name: Run release
+      - name: Run releaser
         env:
           GITHUB_TOKEN: ${{ secrets.BOT_ACCESS_TOKEN }}
         run: semantic-release
+
+      - name: Update repo
+        run: git pull --rebase --autostash
+
+      - name: Commit changes
+        uses: EndBug/add-and-commit@a94899bca583c204427a224a7af87c02f9b325d5 # v9
+        with:
+          author_name: GitHub Actions
+          author_email: github@webhippie.de
+          add: .github/RELEASE
+          message: "docs: automated release update [skip ci]"
+          push: true
+          commit: --signoff
 
 ...
