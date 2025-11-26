@@ -11,6 +11,12 @@ name: build
     branches:
       - master
 
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+  id-token: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -60,7 +66,6 @@ jobs:
         if: github.ref == 'refs/heads/master' && github.event_name == 'push'
         env:
           GITHUB_TOKEN: ${{ secrets.BOT_ACCESS_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npm run release
 
 ...

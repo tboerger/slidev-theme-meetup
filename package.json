@@ -56,5 +56,8 @@
         "mono": "Fira Code"
       }
     }
+  },
+  "publishConfig": {
+    "provenance": true
   }
 }
