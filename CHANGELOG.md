@@ -1,5 +1,11 @@
 # Changelog
 
+## [3.10.0](https://github.com/tboerger/slidev-theme-meetup/compare/v3.9.1...v3.10.0) (2025-11-26)
+
+### Features
+
+* drop semantic-release deps from package.json ([0e14fd7](https://github.com/tboerger/slidev-theme-meetup/commit/0e14fd79945e2262ee5d84d243d12204213d198b))
+
 ## [3.9.1](https://github.com/tboerger/slidev-theme-meetup/compare/v3.9.0...v3.9.1) (2025-11-20)
 
 ### Bugfixes
