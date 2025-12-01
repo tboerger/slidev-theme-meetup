@@ -35,9 +35,9 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "6.2.0",
-    "@slidev/cli": "52.9.1",
+    "@slidev/cli": "52.10.0",
     "eslint": "9.39.1",
-    "eslint-plugin-vue": "10.6.1",
+    "eslint-plugin-vue": "10.6.2",
     "playwright-chromium": "1.57.0"
   },
   "slidev": {
