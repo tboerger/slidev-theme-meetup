@@ -82,7 +82,7 @@
       "semanticCommitType": "ci",
       "semanticCommitScope": "tools",
       "automerge": true,
-      "pinDigests": true
+      "pinDigests": false
     }
   ],
   "labels": [
