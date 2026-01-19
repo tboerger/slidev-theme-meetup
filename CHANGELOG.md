@@ -1,5 +1,11 @@
 # Changelog
 
+## [3.13.0](https://github.com/tboerger/slidev-theme-meetup/compare/v3.12.3...v3.13.0) (2026-01-19)
+
+### Features
+
+* do not pin github actions anymore ([79c5ce6](https://github.com/tboerger/slidev-theme-meetup/commit/79c5ce6549937f0194adfb6f649f2b3843597fee))
+
 ## [3.12.3](https://github.com/tboerger/slidev-theme-meetup/compare/v3.12.2...v3.12.3) (2026-01-18)
 
 ### Bugfixes
