@@ -35,10 +35,10 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "7.2.0",
-    "@slidev/cli": "52.11.4",
+    "@slidev/cli": "52.11.5",
     "eslint": "9.39.2",
     "eslint-plugin-vue": "10.7.0",
-    "playwright-chromium": "1.58.0"
+    "playwright-chromium": "1.58.1"
   },
   "slidev": {
     "colorSchema": "both",
