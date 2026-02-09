@@ -38,7 +38,7 @@
     "@slidev/cli": "52.11.5",
     "eslint": "9.39.2",
     "eslint-plugin-vue": "10.7.0",
-    "playwright-chromium": "1.58.1"
+    "playwright-chromium": "1.58.2"
   },
   "slidev": {
     "colorSchema": "both",
