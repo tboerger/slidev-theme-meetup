@@ -1,5 +1,11 @@
 # Changelog
 
+## [3.15.0](https://github.com/tboerger/slidev-theme-meetup/compare/v3.14.0...v3.15.0) (2026-02-26)
+
+### Features
+
+* enable automerge for lockfile maintenance prs ([ed643f3](https://github.com/tboerger/slidev-theme-meetup/commit/ed643f30b88ff7fc1bf239c52b543c244e447f67))
+
 ## [3.14.0](https://github.com/tboerger/slidev-theme-meetup/compare/v3.13.2...v3.14.0) (2026-02-15)
 
 ### Features
