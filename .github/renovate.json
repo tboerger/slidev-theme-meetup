@@ -18,6 +18,15 @@
   },
   "packageRules": [
     {
+      "description": "Automerge lock file maintenance PRs",
+      "matchUpdateTypes": [
+        "lockFileMaintenance"
+      ],
+      "semanticCommitType": "chore",
+      "semanticCommitScope": "locks",
+      "automerge": true
+    },
+    {
       "description": "Semantic commits for major updates",
       "matchUpdateTypes": [
         "major"
