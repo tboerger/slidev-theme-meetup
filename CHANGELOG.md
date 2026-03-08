@@ -1,5 +1,11 @@
 # Changelog
 
+## [3.17.2](https://github.com/tboerger/slidev-theme-meetup/compare/v3.17.1...v3.17.2) (2026-03-08)
+
+### Bugfixes
+
+* **patch:** update dependency vite-svg-loader to v5.1.1 ([#635](https://github.com/tboerger/slidev-theme-meetup/issues/635)) ([c1f687b](https://github.com/tboerger/slidev-theme-meetup/commit/c1f687b3c4f842b077838b06b42ba45bc28f7fab))
+
 ## [3.17.1](https://github.com/tboerger/slidev-theme-meetup/compare/v3.17.0...v3.17.1) (2026-03-06)
 
 ### Bugfixes
