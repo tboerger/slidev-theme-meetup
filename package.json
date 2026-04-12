@@ -34,7 +34,7 @@
     "vite-svg-loader": "5.1.1"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "8.1.0",
+    "@antfu/eslint-config": "8.1.1",
     "@slidev/cli": "52.14.2",
     "playwright-chromium": "1.59.1"
   },
