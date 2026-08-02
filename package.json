@@ -36,7 +36,7 @@
   "devDependencies": {
     "@antfu/eslint-config": "9.2.0",
     "@slidev/cli": "52.18.0",
-    "playwright-chromium": "1.62.0"
+    "playwright-chromium": "1.62.1"
   },
   "slidev": {
     "colorSchema": "both",
