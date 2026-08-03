@@ -1,5 +1,7 @@
 # Changelog
 
+## [3.21.1](https://github.com/tboerger/slidev-theme-meetup/compare/v3.21.0...v3.21.1) (2026-08-03)
+
 ## [3.21.0](https://github.com/tboerger/slidev-theme-meetup/compare/v3.20.0...v3.21.0) (2026-07-17)
 
 ## [3.20.0](https://github.com/tboerger/slidev-theme-meetup/compare/v3.19.0...v3.20.0) (2026-07-13)
