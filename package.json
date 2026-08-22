@@ -35,7 +35,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "9.3.0",
-    "@slidev/cli": "52.19.0",
+    "@slidev/cli": "52.19.1",
     "playwright-chromium": "1.62.1"
   },
   "slidev": {
